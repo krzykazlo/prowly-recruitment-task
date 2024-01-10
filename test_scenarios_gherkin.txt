@@ -1,0 +1,12 @@
+Function: Searching for the phrase "Prowly Media Monitoring" on the website bing.com filtering by content category (all, video, news, etc.).
+
+Scenario 1: Searching for the phrase "Prowly Media Monitoring" on the bing.com, filtering by content category - ALL
+GIVEN bing.com home page is displayed
+WHEN the search phrase 'Prowly Media Monitoring' is entered
+THEN results for 'Prowly Media Monitoring' are shown
+
+Scenario 2: Searching for the phrase "Prowly Media Monitoring" on the website bing.com filtering by content category - VIDEO
+GIVEN bing.com home page is displayed
+AND filtering by videos is selected
+WHEN the search phrase 'Prowly Media Monitoring' is entered
+THEN results for 'Prowly Media Monitoring' videos are shown
