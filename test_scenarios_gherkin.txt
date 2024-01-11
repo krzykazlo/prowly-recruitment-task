@@ -10,3 +10,26 @@ GIVEN bing.com home page is displayed
 AND filtering by videos is selected
 WHEN the search phrase 'Prowly Media Monitoring' is entered
 THEN results for 'Prowly Media Monitoring' videos are shown
+
+Function: Using Copilot in the bing.com search engine to collect information about the media monitoring module in Prowly.
+
+Scenario 1: Collect information about the media monitoring module in Prowly with conversation style set as - More Creative.
+GIVEN bing.com home page is displayed
+AND copilot chat is selected
+AND more Creative conversation style is selected
+WHEN 'Media monitoring module in Prowly' is entered in the chatbox
+THEN results are generated 
+
+Scenario 2: Collect information about the media monitoring module in Prowly with conversation style set as - More Balanced.
+GIVEN bing.com home page is displayed
+AND copilot chat is selected
+AND more Balanced conversation style is selected
+WHEN 'Media monitoring module in Prowly' is entered in the chatbox
+THEN results are generated 
+
+Scenario 3: Collect information about the media monitoring module in Prowly with conversation style set as - More Precise.
+GIVEN bing.com home page is displayed
+AND copilot chat is selected
+AND more Precise conversation style is selected
+WHEN 'Media monitoring module in Prowly' is entered in the chatbox
+THEN results are generated 
